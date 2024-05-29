@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"example.com/cobra/cmd"
+)
 
 func main() {
-	fmt.Println("Hello Golang Cobra!")
+	cmd.Execute()
 }
